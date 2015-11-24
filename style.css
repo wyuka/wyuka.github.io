@@ -279,9 +279,12 @@ i.fa.fa-times {
         padding: 10px 0!important;
         margin: 0px;
     }
+		#header.alt {
+			background: none;
+		}
     #subnav {
         margin-top: -30px!important;
-		margin-left: calc(100% - 198px);
+				margin-left: calc(100% - 198px);
         width: 200px!important;
         border-radius: 10px 0 0 10px;
     }
@@ -713,14 +716,6 @@ i.fa.fa-times {
 	}
 
 	/* Media Query */
-
-	@media screen and (max-width: 480px) {
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-	}
 
 	@media screen and (max-width: 840px) {
 		#navButton .toggle {
